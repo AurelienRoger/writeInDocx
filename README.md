@@ -9,3 +9,11 @@ Ce script Python permet de générer des fichiers `.docx` à partir d'un fichier
 - Crée un fichier `.docx` pour chaque ligne du CSV.
 - Chaque ligne du CSV génère un fichier `.docx` avec les données sous forme de paragraphes.
 - La taille de la police dans les fichiers générés est définie à 20 points et le texte est centré.
+
+### Prérequis
+- `pandas` : pour manipuler le fichier CSV.
+- `python-docx` : pour créer des fichiers `.docx`.
+- `tkinter` : pour ouvrir une fenêtre de sélection de fichier CSV.
+
+```bash
+pip install pandas python-docx
